@@ -76,7 +76,7 @@ public class GlobalVariables {
         number = fake.numerify("##########");
         social = fake.numerify("#########");
         userName = fake.name().username()+fname;
-        passWord = fname+zip;
+        passWord = "Hello Bangladesh";
         System.out.println(userName+ " " + passWord);
     }
 }
