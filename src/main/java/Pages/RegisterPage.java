@@ -24,6 +24,6 @@ public class RegisterPage {
         driver.findElement(By.id("repeatedPassword")).sendKeys(GlobalVariables.getPassWord());
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.findElement(By.xpath("//tbody/tr[13]/td[2]/input[1]")).click();
-        System.out.println(j);
+        //System.out.println(j);
     }
 }

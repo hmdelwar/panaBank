@@ -53,15 +53,16 @@ public class GlobalVariables {
 
     static String addie [];
 
-    public String getAccNumber() {
+
+    public static String getAccNumber() {
         return accNumber;
     }
 
-    public void setAccNumber(String accNumber) {
-        this.accNumber = accNumber;
+    public static void setAccNumber(String accNumber) {
+        GlobalVariables.accNumber = accNumber;
     }
 
-    String accNumber;
+    static String accNumber;
 
 
     public static void variableDeclaration() {
